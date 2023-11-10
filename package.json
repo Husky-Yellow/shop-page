@@ -1,0 +1,31 @@
+{
+  "name": "yc-mobile-website",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode production",
+    "build:release": "vite build --mode release",
+    "build:dev": "vite build --mode development",
+    "serve": "vite preview --host"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@guanghe-pub/onion-oss-vite-plugin": "^0.0.1",
+    "@babel/preset-env": "^7.20.2",
+    "@vitejs/plugin-legacy": "^4.0.1",
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "terser": "^5.16.3",
+    "vite": "^4.1.1",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-resolve-externals": "^0.2.2"
+  },
+  "packageManager": "pnpm@8.6.0"
+}
