@@ -5,17 +5,6 @@ import { resolve } from 'path';
 import resolveExternalsPlugin from 'vite-plugin-resolve-externals'
 import viteCompression from 'vite-plugin-compression'
 
-const host = {
-  development: 'https://m-test.yangcong345.com',
-  stage: 'https://m-stage.yangcong345.com',
-  production: 'https://m.yangcong345.com',
-}
-const pointHost = {
-  development: 'https://track-test.yc345.tv/events/track-h5',
-  stage: 'https://tracktest.yangcong345.com',
-  production: 'https://track.yangcong345.com/api/v4/events',
-}
-
 export default (({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   const { VITE_NODE_ENV } = env
