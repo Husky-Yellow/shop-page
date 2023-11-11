@@ -8,7 +8,7 @@
                 <ul>
                     <li v-for="(intro, index) in item.intro" :key="index">
                         <h4 class="h4">{{ intro.title }}</h4>
-                        <video :src="intro.video" :poster="intro.poster" controls="controls" width="100%" height="auto"></video>
+                        <video preload="auto" :src="intro.video" :poster="intro.poster" controls="controls" width="100%" height="auto"></video>
                     </li>
                 </ul>
             </li>
@@ -219,7 +219,83 @@ export default {
                         },
                     ]
                 },
-            }
+                '169': {
+                    title: 'KF50 ボールヘッド',
+                    img: 'https://1.rc.xiniu.com/rc/Banners/53330/images/ibpsp1_news_banner_1.jpg',
+                    video: [
+                        {
+                            subTitle: '01 カメラを頭に取り付ける (KF50-Q専用）',
+                            intro: [
+                                {
+                                    title: '',
+                                    video: 'https://vs-video.yangcong345.com/shadow/1-a690eedd51df7ef5ab8634b68656a3a5.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/169-1-f5b2935fd29d278da1c61387c0025d01.png'
+                                }
+                            ]
+                        },
+                        {
+                            subTitle: '02 ロックレバーの使用',
+                            intro: [
+                                {
+                                    title: '',
+                                    video: 'https://vs-video.yangcong345.com/shadow/2-3ee79135253d75263153bcefe4345a77.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/169-2-c3d1e82a600536239b226fd46e1ca9ed.png'
+                                },
+                            ]
+                        },
+                        {
+                            subTitle: '03 パンロックノブの使用',
+                            intro: [
+                                {
+                                    title: '',
+                                    video: 'https://vs-video.yangcong345.com/shadow/3-da8455a59ae32a449283a37f911ea8f0.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/169-3-2cd6b72162111225c30c2109d703a494.png'
+                                },
+                            ]
+                        },
+                        {
+                            subTitle: '04  スムーズパンモードへの切り替え',
+                            intro: [
+                                {
+                                    title: '',
+                                    video: 'https://vs-video.yangcong345.com/shadow/4-c43f7c7f1769166e5fb9e4c6498b92fa.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/169-4-2da56ea1eccb52bc3e07476cda196000.png'
+                                },
+                            ]
+                        },
+                        {
+                            subTitle: '05 ボールヘッドをロックできない場合',
+                            intro: [
+                                {
+                                    title: '',
+                                    video: 'https://vs-video.yangcong345.com/shadow/5-cc48d1534b022c3d82a9f276085e1c7d.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/169-5-fa3ab9f8c7a6e8d5962b78c92154dfee.png'
+                                },
+                            ]
+                        },
+                        {
+                            subTitle: '06 ボールヘッドレバーの交換',
+                            intro: [
+                                {
+                                    title: '',
+                                    video: 'https://vs-video.yangcong345.com/shadow/6-11f2ee44978ab317ac5ea3c774512ffe.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/169-6-e59d27f7ccbc900aa001676f84a85d78.png'
+                                },
+                            ]
+                        },
+                        {
+                            subTitle: '07 ビルトインスマートフォンマウント',
+                            intro: [
+                                {
+                                    title: '',
+                                    video: 'https://vs-video.yangcong345.com/shadow/7-099dc81abe7f777104f76dbdc13e2b6f.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/169-7-f4a73c78a28553229ce84d8286c0a9c3.png'
+                                },
+                            ]
+                        },
+                    ]
+                },
+            },
         }
     },
     computed: {
@@ -259,11 +335,11 @@ main h2 {
 main h3 {
     border-left: 4px solid #ccc;
     padding-left: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 main h4 {
-    padding: 4px 0;
+    padding: 14px 0 4px;
 }
 
 main>ul {

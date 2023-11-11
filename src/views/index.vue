@@ -2,17 +2,17 @@
     <main class="index-box">
         <h2>商品</h2>
         <div class="container">
-            <div  class="margin-t-20 fz-16">
-                <figure @click="open('168')">
+            <div v-for="(item, index) in list" :key="index"  class="margin-t-20 fz-16">
+                <figure  @click="open(item.key)">
                     <img
-                        src="https://1.rc.xiniu.com/rc/Banners/53330/images/ibpsp1_news_banner_1.jpg"
+                        :src="item.img"
                         loading="lazy"
                         decoding="async"
                         class="width-auto"
                         />
                     <figcaption>
                         <p>
-                            <span>三合一旅行三脚架（W28）</span>
+                            <span>{{ item.title }}</span>
                             <span>查看详情 > </span>
                         </p>
                     </figcaption>
@@ -25,6 +25,22 @@
 <script>
 export default {
     name: "Index",
+    data() {
+        return {
+            list: [
+                {
+                    img: 'https://1.rc.xiniu.com/rc/Banners/53330/images/ibpsp1_news_banner_1.jpg',
+                    title: '三合一旅行三脚架（W28）',
+                    key: '168'
+                },
+                {
+                    img: 'https://1.rc.xiniu.com/rc/Banners/53330/images/ibpsp1_news_banner_1.jpg',
+                    title: '云台',
+                    key: '169'
+                },
+            ]
+        }
+    },
     methods: {
         open(key) {
             this.$router.push({
@@ -48,6 +64,7 @@ export default {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 10px;
   padding: 10px 8px;
 }
 .container >div{
