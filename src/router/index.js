@@ -31,7 +31,7 @@ const router = new VueRouter({
 
 router.beforeEach((to, from, next) => {
   if (to.matched.length === 0) {
-    next('/index')
+    next('/shop-page/index')
   } else next()
 });
 
