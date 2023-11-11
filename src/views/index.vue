@@ -3,7 +3,7 @@
         <h2>商品</h2>
         <div class="container">
             <div v-for="(item, index) in list" :key="index"  class="margin-t-20 fz-16">
-                <figure  @click="open(item.key)">
+                <figure @click="open(item.key)">
                     <img
                         :src="item.img"
                         loading="lazy"
@@ -44,7 +44,7 @@ export default {
     methods: {
         open(key) {
             this.$router.push({
-                path: '/shop-page/detail',
+                path: '/detail',
                 query: { key }
             })
         }
