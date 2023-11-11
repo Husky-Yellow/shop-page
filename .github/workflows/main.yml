@@ -10,32 +10,30 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x]
-
     steps:
       - uses: actions/checkout@v3
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: false
+
+      - name: use Node.js 16
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
+          node-version: '20.x'
 
-      - name: Install pnpm
-        run: npm install -g pnpm
-
-      - run: pnpm install
+      - name: Build
         env:
-          CI: true
-
-      - run: pnpm run build
-        env:
-          CI: true
+          NODE_OPTIONS: '--max_old_space_size=4096'
+        run: |
+          pnpm install --no-frozen-lockfile
+          pnpm build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages
           folder: dist
