@@ -21,7 +21,7 @@ export const routeNames = [
 ];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   routes: routeNames.map(item => ({
     path: `/shop-page/${item.link}`,
     name: item.link,
