@@ -285,5 +285,6 @@ main>ul>li>ul {
     main>ul {
         min-width: none;
         width: auto;
+        padding: 0 10px;
     }
 }</style>
