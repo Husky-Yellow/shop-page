@@ -277,12 +277,13 @@ main>ul>li>ul {
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:959px) {
     main video {
         width: 100%;
         margin-left: 0;
     }
     main>ul {
-   width: auto;
-}
+        min-width: none;
+        width: auto;
+    }
 }</style>
