@@ -29,12 +29,12 @@
 }
 
 .h3 {
-    font: 600 20px PingFangSC-Semibold, PingFang SC;
+    font: 600 18px PingFangSC-Semibold, PingFang SC;
     color: #262626;
 }
 
 .h4 {
-    font: 600 20px PingFang SC-Semibold, PingFang SC;
+    font: 600 16px PingFang SC-Semibold, PingFang SC;
     line-height: 28px;
 }
 
@@ -69,6 +69,10 @@
 .img-icon-24-24 {
     width: 24px;
     height: 24px;
+}
+
+.width-auto {
+    width: 100%;
 }
 
 .position-relative {
@@ -109,4 +113,7 @@
 
 .m-t-8 {
     margin-top: 8px;
+}
+.text-align__center {
+    text-align: center;
 }
