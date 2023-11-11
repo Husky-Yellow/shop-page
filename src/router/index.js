@@ -23,7 +23,7 @@ export const routeNames = [
 const router = new VueRouter({
   mode: 'history',
   routes: routeNames.map(item => ({
-    path: `/${item.link}`,
+    path: `/shop-page/${item.link}`,
     name: item.link,
     component: () => import(`../views/${item.link}.vue`),
   })),

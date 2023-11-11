@@ -223,7 +223,7 @@ export default {
 }
 
 main video {
-    width: 40%;
+    width: 60%;
     height: auto;
     display: flex;
 }

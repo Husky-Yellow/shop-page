@@ -28,7 +28,7 @@ export default {
     methods: {
         open(key) {
             this.$router.push({
-                path: '/detail',
+                path: '/shop-page/detail',
                 query: { key }
             })
         }
@@ -96,5 +96,11 @@ export default {
     color: black;
     display: block;
   }
+  .container >div:hover figcaption {
+    transform: none;
+    }
+.container >div:hover img {
+    transform: none;
+}
 }
 </style>
