@@ -8,7 +8,7 @@
                 <ul>
                     <li v-for="(intro, index) in item.intro" :key="index">
                         <h4 class="h4">{{ intro.title }}</h4>
-                        <video :src="intro.video" controls="controls" width="100%" height="auto"></video>
+                        <video :src="intro.video" :poster="intro.poster" controls="controls" width="100%" height="auto"></video>
                     </li>
                 </ul>
             </li>
@@ -32,7 +32,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-1-9d74688e8098b887be0028e277a21b9f.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-1-9d74688e8098b887be0028e277a21b9f.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/1-c6d7e6aae074db6c326bfbd383de5321.png'
                                 }
                             ]
                         },
@@ -41,11 +42,13 @@ export default {
                             intro: [
                                 {
                                     title: '2.1 主架脚管的调节',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-2.1-321e875fcb05e151e8b0b3c077e53d57.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-2.1-321e875fcb05e151e8b0b3c077e53d57.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/2.1-65baf527ee1e7c087e9597e75e6e18d9.png'
                                 },
                                 {
                                     title: '2.2 子架脚管的调节',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-2.2-9e358860ac8fffc014120b287cb868e8.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-2.2-9e358860ac8fffc014120b287cb868e8.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/2.2-b17c534ce3c7e51310b816e48d4d990c.png'
                                 }
                             ]
                         },
@@ -54,7 +57,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-3-95270cf5df5dc94447887c96da944849.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-3-95270cf5df5dc94447887c96da944849.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/3-1d2bccf93442f224f3958d5bc2cbd851.png'
                                 },
                             ]
                         },
@@ -63,7 +67,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-4-a690eedd51df7ef5ab8634b68656a3a5.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-4-a690eedd51df7ef5ab8634b68656a3a5.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/4-09a1890fdd5814c682608cb1756739ae.png'
                                 },
                             ]
                         },
@@ -72,15 +77,18 @@ export default {
                             intro: [
                                 {
                                     title: '5.1 球头锁紧扳手',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-5.1-3ee79135253d75263153bcefe4345a77.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-5.1-3ee79135253d75263153bcefe4345a77.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/5.1-899fd6045e6d9c318129c33eeab337bc.png'
                                 },
                                 {
                                     title: '5.2 全景盘锁紧钮',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-5.2-da8455a59ae32a449283a37f911ea8f0.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-5.2-da8455a59ae32a449283a37f911ea8f0.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/5.2-a9a2bad920119fc171ae993311ea532d.png'
                                 },
                                 {
                                     title: '5.3 将云台全景盘调整为顺滑平摇模式',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-5.3-c43f7c7f1769166e5fb9e4c6498b92fa.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-5.3-c43f7c7f1769166e5fb9e4c6498b92fa.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/5.3-276949e20e466a6e39f235fd829890a0.png'
                                 },
                             ]
                         },
@@ -89,11 +97,13 @@ export default {
                             intro: [
                                 {
                                     title: '6.1 如果球台无法锁紧',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-6.1-cc48d1534b022c3d82a9f276085e1c7d.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-6.1-cc48d1534b022c3d82a9f276085e1c7d.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/6.1-b6a4e4912969b85ba331582cc0c5e23e.png'
                                 },
                                 {
                                     title: '6.2 拆卸和安装云台锁紧扳手',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-6.2-11f2ee44978ab317ac5ea3c774512ffe.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-6.2-11f2ee44978ab317ac5ea3c774512ffe.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/6.2-27f80e65f37b9062273094d2fb9ee57a.png'
                                 },
                             ]
                         },
@@ -102,7 +112,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-7-fa5b56ea4123e83bcd39fb36cdb8db0c.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-7-fa5b56ea4123e83bcd39fb36cdb8db0c.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/7-b4687aca0db12892b057708d68610b8a.png'
                                 },
                             ]
                         },
@@ -111,7 +122,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-8-46a01a58dc0efd0ea7bc6c5573b233aa.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-8-46a01a58dc0efd0ea7bc6c5573b233aa.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/8-1945886fa94b23ec63f8dcc4bf199cf9.png'
                                 },
                             ]
                         },
@@ -120,7 +132,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-9-f3a915f0907e17d2b63a5c68e82bdc17.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-9-f3a915f0907e17d2b63a5c68e82bdc17.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/9-08fce7b65c43a89cd9eeee75b724c99e.png'
                                 },
                             ]
                         },
@@ -129,7 +142,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-10-94613ac2f80e15dc6c3d8753a6076b5d.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-10-94613ac2f80e15dc6c3d8753a6076b5d.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/10-3b4350c1623db03a9224fae9a24d9d29.png'
                                 },
                             ]
                         },
@@ -138,7 +152,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-11-df387e6946166f954a7f578149571f58.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-11-df387e6946166f954a7f578149571f58.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/11-d095c1efaeccc1e906e6cc0d194979ed.png'
                                 },
                             ]
                         },
@@ -147,7 +162,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-12-099dc81abe7f777104f76dbdc13e2b6f.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-12-099dc81abe7f777104f76dbdc13e2b6f.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/12-faba388ebd0f61dc3200c8ac5467bf65.png'
                                 },
                             ]
                         },
@@ -156,7 +172,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-13-17b30f6b1208db353d25c6110a702d30.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-13-17b30f6b1208db353d25c6110a702d30.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/13-930e65d3fb7986393f62e675fdb64fca.png'
                                 },
                             ]
                         },
@@ -165,7 +182,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-14-842ff7ef2a8e67f18f75499a39b0a8b8.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-14-842ff7ef2a8e67f18f75499a39b0a8b8.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/14-7f6fc0163fd663ce41d09be7ad78e793.png'
                                 },
                             ]
                         },
@@ -174,7 +192,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-15-6a55b08843cf0e8a862758f2a7bf505f.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-15-6a55b08843cf0e8a862758f2a7bf505f.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/15-ac2135eff8ed090a48dc15718060367b.png'
                                 },
                             ]
                         },
@@ -183,7 +202,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-16-9e072a74ee00aac3bef6b169c0cbec2a.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-16-9e072a74ee00aac3bef6b169c0cbec2a.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/16-d899c4979041929367c74212bec25512.png'
                                 },
                             ]
                         },
@@ -192,7 +212,8 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-17-f02ba0b6c264b7c40cff9d604424da1b.mp4'
+                                    video: 'https://vs-video.yangcong345.com/shadow/W28-17-f02ba0b6c264b7c40cff9d604424da1b.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/17-d9e45d295ac87c99e65317f594615d14.png'
                                 },
                             ]
                         },
@@ -218,13 +239,13 @@ export default {
 <style scoped>
 .width-auto {
     max-width: 100%;
-    height: auto;
-    vertical-align: top;
+    height: 40vh;
+    object-fit: cover;
 }
 
 main video {
     min-width: 340px;
-    width: 60%;
+    width: 100%;
     height: auto;
     display: flex;
 }
@@ -246,11 +267,14 @@ main h4 {
 }
 
 main>ul {
-    padding: 20px;
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 800px;
 }
 
 main>ul>li>ul {
     margin: 12px 0;
+
 }
 
 @media screen and (max-width:375px) {
@@ -258,4 +282,7 @@ main>ul>li>ul {
         width: 100%;
         margin-left: 0;
     }
+    main>ul {
+   width: auto;
+}
 }</style>
