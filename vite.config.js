@@ -26,7 +26,7 @@ export default (({ mode }) => {
     })
   ]
   return {
-    base: './',
+    base: '/shop-page/',
     plugins,
     define: {
       EVN: JSON.stringify(VITE_NODE_ENV)
