@@ -23,7 +23,7 @@ export const routeNames = [
 const router = new VueRouter({
   mode: 'hash',
   routes: routeNames.map(item => ({
-    path: `/shop-page/${item.link}`,
+    path: `/${item.link}`,
     name: item.link,
     component: () => import(`../views/${item.link}.vue`),
   })),
@@ -31,7 +31,7 @@ const router = new VueRouter({
 
 router.beforeEach((to, from, next) => {
   if (to.matched.length === 0) {
-    next('/shop-page/index')
+    next('/index')
   } else next()
 });
 
