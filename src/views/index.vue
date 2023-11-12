@@ -69,16 +69,12 @@ export default {
     padding: 10px 8px;
 }
 
-.container>div {
-    background-color: #fff;
-    height: 198px;
-    overflow: hidden;
-}
-
 .container>div>figure {
     position: relative;
     overflow: hidden;
     z-index: 2;
+    background-color: #fff;
+    min-height: 198px;
 }
 .container>div>figure img {
     width: 100%;
@@ -126,10 +122,6 @@ export default {
     .container {
         grid-template-columns: 1fr;
     }
-    .container>div {
-        height: 208px;
-    }
-
     .container>div>figure>figcaption {
         position: relative;
         transform: translate(0, 0);
