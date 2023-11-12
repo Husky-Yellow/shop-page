@@ -8,7 +8,7 @@
                     <figcaption>
                         <p>
                             <span>{{ item.title }}</span>
-                            <span>查看详情 ➡️ </span>
+                            <span>詳細を調べます ➡️ </span>
                         </p>
                     </figcaption>
                 </figure>
@@ -99,7 +99,7 @@ export default {
 }
 
 .container>div> figure:hover figcaption {
-    transform: translate(12px, -12px);
+    transform: translate(12px, -140px);
     width: calc(100% - 24px);
 }
 
