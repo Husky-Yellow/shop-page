@@ -25,7 +25,7 @@ export default {
             datail: {
                 '168': {
                     title: '3-in-1 トラベル三脚',
-                    img: 'https://fp.yangcong345.com/shadow/shop--1-0f284f46d5f5d339039563dd553f98e2.jpeg',
+                    img: 'https://fp.yangcong345.com/shadow/shop--2-6914d8020dfd1945d4317a8469b19270.jpeg',
                     video: [
                         {
                             subTitle: '01 脚の伸縮方法',
@@ -221,7 +221,7 @@ export default {
                 },
                 '169': {
                     title: 'KF50 ボールヘッド',
-                    img: 'https://fp.yangcong345.com/shadow/shop--2-6914d8020dfd1945d4317a8469b19270.jpeg',
+                    img: 'https://fp.yangcong345.com/shadow/shop--1-0f284f46d5f5d339039563dd553f98e2.jpeg',
                     video: [
                         {
                             subTitle: '01 カメラを頭に取り付ける (KF50-Q専用）',

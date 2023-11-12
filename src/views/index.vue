@@ -24,12 +24,12 @@ export default {
         return {
             list: [
                 {
-                    img: 'https://fp.yangcong345.com/shadow/shop--1-0f284f46d5f5d339039563dd553f98e2.jpeg',
+                    img: 'https://fp.yangcong345.com/shadow/shop--2-6914d8020dfd1945d4317a8469b19270.jpeg',
                     title: '3-in-1 トラベル三脚',
                     key: '168'
                 },
                 {
-                    img: 'https://fp.yangcong345.com/shadow/shop--2-6914d8020dfd1945d4317a8469b19270.jpeg',
+                    img: 'https://fp.yangcong345.com/shadow/shop--1-0f284f46d5f5d339039563dd553f98e2.jpeg',
                     title: 'KF50 ボールヘッド',
                     key: '169'
                 },
