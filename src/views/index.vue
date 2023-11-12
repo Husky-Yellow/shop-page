@@ -1,6 +1,6 @@
 <template funcitonal>
     <main class="index-box">
-        <h2>商品列表</h2>
+        <h2>商品詳細です</h2>
         <div class="container">
             <div v-for="(item, index) in list" :key="index" class="margin-t-20 fz-16">
                 <figure @click="open(item.key)">
@@ -24,12 +24,12 @@ export default {
         return {
             list: [
                 {
-                    img: 'https://1.rc.xiniu.com/rc/Banners/53330/images/ibpsp1_news_banner_1.jpg',
+                    img: 'https://fp.yangcong345.com/shadow/shop--1-0f284f46d5f5d339039563dd553f98e2.jpeg',
                     title: '3-in-1 トラベル三脚',
                     key: '168'
                 },
                 {
-                    img: 'https://1.rc.xiniu.com/rc/Banners/53330/images/ibpsp1_news_banner_1.jpg',
+                    img: 'https://fp.yangcong345.com/shadow/shop--2-6914d8020dfd1945d4317a8469b19270.jpeg',
                     title: 'KF50 ボールヘッド',
                     key: '169'
                 },
@@ -95,7 +95,7 @@ export default {
 }
 
 .container>div> figure:hover figcaption {
-    transform: translate(12px, -140px);
+    transform: translate(12px, -10%);
     width: calc(100% - 24px);
 }
 
