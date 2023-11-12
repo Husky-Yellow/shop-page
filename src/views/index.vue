@@ -30,7 +30,7 @@ export default {
                 },
                 {
                     img: 'https://1.rc.xiniu.com/rc/Banners/53330/images/ibpsp1_news_banner_1.jpg',
-                    title: '云台',
+                    title: 'KF50 ボールヘッド',
                     key: '169'
                 },
             ]
