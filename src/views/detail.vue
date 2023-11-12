@@ -24,11 +24,11 @@ export default {
             key: '',
             datail: {
                 '168': {
-                    title: '三合一旅行三脚架（W28）',
+                    title: '3-in-1 トラベル三脚',
                     img: 'https://1.rc.xiniu.com/rc/Banners/53330/images/ibpsp1_news_banner_1.jpg',
                     video: [
                         {
-                            subTitle: '01 脚管的拉出与收回',
+                            subTitle: '01 脚の伸縮方法',
                             intro: [
                                 {
                                     title: '',
@@ -38,22 +38,22 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '02 脚管角度调节',
+                            subTitle: '02 脚の角度を調整する',
                             intro: [
                                 {
-                                    title: '2.1 主架脚管的调节',
+                                    title: '2.1 メイン三脚の調整',
                                     video: 'https://vs-video.yangcong345.com/shadow/W28-2.1-321e875fcb05e151e8b0b3c077e53d57.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/2.1-65baf527ee1e7c087e9597e75e6e18d9.png'
                                 },
                                 {
-                                    title: '2.2 子架脚管的调节',
+                                    title: '2.2 サブ三脚の調整',
                                     video: 'https://vs-video.yangcong345.com/shadow/W28-2.2-9e358860ac8fffc014120b287cb868e8.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/2.2-b17c534ce3c7e51310b816e48d4d990c.png'
                                 }
                             ]
                         },
                         {
-                            subTitle: '03 快装板与相机的连接',
+                            subTitle: '03 カメラ台をカメラに取り付ける',
                             intro: [
                                 {
                                     title: '',
@@ -63,7 +63,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '04 将相机安装在云台上',
+                            subTitle: '04 カメラを雲台に取り付ける',
                             intro: [
                                 {
                                     title: '',
@@ -73,42 +73,42 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '05 云台的使用',
+                            subTitle: '05 雲台を使用する',
                             intro: [
                                 {
-                                    title: '5.1 球头锁紧扳手',
+                                    title: '5.1 ボールヘッドロックレバー',
                                     video: 'https://vs-video.yangcong345.com/shadow/W28-5.1-3ee79135253d75263153bcefe4345a77.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/5.1-899fd6045e6d9c318129c33eeab337bc.png'
                                 },
                                 {
-                                    title: '5.2 全景盘锁紧钮',
+                                    title: '5.2 パノラマベースロックノブ',
                                     video: 'https://vs-video.yangcong345.com/shadow/W28-5.2-da8455a59ae32a449283a37f911ea8f0.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/5.2-a9a2bad920119fc171ae993311ea532d.png'
                                 },
                                 {
-                                    title: '5.3 将云台全景盘调整为顺滑平摇模式',
+                                    title: '5.3 パノラマベースをスムーズモードに調整',
                                     video: 'https://vs-video.yangcong345.com/shadow/W28-5.3-c43f7c7f1769166e5fb9e4c6498b92fa.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/5.3-276949e20e466a6e39f235fd829890a0.png'
                                 },
                             ]
                         },
                         {
-                            subTitle: '06 球台锁紧扳手的调整',
+                            subTitle: '06 ビリヤードロックレンチの調整です',
                             intro: [
                                 {
-                                    title: '6.1 如果球台无法锁紧',
+                                    title: '6.1 ボールヘッドをロックできない場合',
                                     video: 'https://vs-video.yangcong345.com/shadow/W28-6.1-cc48d1534b022c3d82a9f276085e1c7d.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/6.1-b6a4e4912969b85ba331582cc0c5e23e.png'
                                 },
                                 {
-                                    title: '6.2 拆卸和安装云台锁紧扳手',
+                                    title: '6.2 ボール雲台のロックレバーの着脱',
                                     video: 'https://vs-video.yangcong345.com/shadow/W28-6.2-11f2ee44978ab317ac5ea3c774512ffe.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/6.2-27f80e65f37b9062273094d2fb9ee57a.png'
                                 },
                             ]
                         },
                         {
-                            subTitle: '07 中轴的升起',
+                            subTitle: '07 センターコラムを引き出す',
                             intro: [
                                 {
                                     title: '',
@@ -118,7 +118,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '08 中轴的拆下',
+                            subTitle: '08 センターコラムを取り外す',
                             intro: [
                                 {
                                     title: '',
@@ -128,7 +128,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '09 中轴的倒置',
+                            subTitle: '09 センターコラムを逆さに設置する',
                             intro: [
                                 {
                                     title: '',
@@ -138,7 +138,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '10 主架与云台的连接',
+                            subTitle: '10 雲台をメイン三脚に設置する',
                             intro: [
                                 {
                                     title: '',
@@ -148,7 +148,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '11 隐藏式脚钉的使用',
+                            subTitle: '11 スパイクを取り付ける',
                             intro: [
                                 {
                                     title: '',
@@ -158,7 +158,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '12 手机夹的使用',
+                            subTitle: '12 スマホマウントを使用する',
                             intro: [
                                 {
                                     title: '',
@@ -168,7 +168,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '13 附件的连接',
+                            subTitle: '13 アクセサリーを取り付ける',
                             intro: [
                                 {
                                     title: '',
@@ -178,7 +178,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '14 加强云台与三脚架的固定',
+                            subTitle: '14 雲台と三脚の固定を強化する',
                             intro: [
                                 {
                                     title: '',
@@ -198,7 +198,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '16 如何快速对准锁紧环螺纹',
+                            subTitle: '16 ロッキングリングをすばやく位置合わせする方法',
                             intro: [
                                 {
                                     title: '',
@@ -208,7 +208,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '17 脚架包内袋的使用',
+                            subTitle: '17 収納バッグの内バッグの使い方',
                             intro: [
                                 {
                                     title: '',

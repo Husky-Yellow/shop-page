@@ -25,7 +25,7 @@ export default {
             list: [
                 {
                     img: 'https://1.rc.xiniu.com/rc/Banners/53330/images/ibpsp1_news_banner_1.jpg',
-                    title: '三合一旅行三脚架（W28）',
+                    title: '3-in-1 トラベル三脚',
                     key: '168'
                 },
                 {
