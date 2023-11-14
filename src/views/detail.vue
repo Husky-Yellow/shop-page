@@ -42,12 +42,12 @@ export default {
                             intro: [
                                 {
                                     title: '2.1 メイン三脚の調整',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-2.1-321e875fcb05e151e8b0b3c077e53d57.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/2.1-shop-title-268d2b1d6affbe01df1a30801290143e.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/2.1-65baf527ee1e7c087e9597e75e6e18d9.png'
                                 },
                                 {
                                     title: '2.2 サブ三脚の調整',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-2.2-9e358860ac8fffc014120b287cb868e8.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/2.2-shop-title-ca7b8f368fcc0d6ab994e625f078f9ed.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/2.2-b17c534ce3c7e51310b816e48d4d990c.png'
                                 }
                             ]
@@ -57,7 +57,7 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-3-95270cf5df5dc94447887c96da944849.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/03-shop-title-c3b82c8fccfe8124c9a422e5a3d6b069.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/3-1d2bccf93442f224f3958d5bc2cbd851.png'
                                 },
                             ]
@@ -67,7 +67,7 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-4-a690eedd51df7ef5ab8634b68656a3a5.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/04-shop-title-b7b34cffbb59bba085bfbf3b43773bf6.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/4-09a1890fdd5814c682608cb1756739ae.png'
                                 },
                             ]
@@ -77,17 +77,17 @@ export default {
                             intro: [
                                 {
                                     title: '5.1 ボールヘッドロックレバー',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-5.1-3ee79135253d75263153bcefe4345a77.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/5.1-shop-title-ee3d6ee96ba878beb42a38d3100b8798.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/5.1-899fd6045e6d9c318129c33eeab337bc.png'
                                 },
                                 {
                                     title: '5.2 パノラマベースロックノブ',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-5.2-da8455a59ae32a449283a37f911ea8f0.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/5.2-shop-title-5ad906d86be0276ddd327553b4eac4b5.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/5.2-a9a2bad920119fc171ae993311ea532d.png'
                                 },
                                 {
                                     title: '5.3 パノラマベースをスムーズモードに調整',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-5.3-c43f7c7f1769166e5fb9e4c6498b92fa.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/5.3-shop-title-b57f231f28a4c7f13ba8d49fd89af3f0.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/5.3-276949e20e466a6e39f235fd829890a0.png'
                                 },
                             ]
@@ -97,7 +97,7 @@ export default {
                             intro: [
                                 {
                                     title: '6.1 ボールヘッドをロックできない場合',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-6.1-cc48d1534b022c3d82a9f276085e1c7d.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/6.1-shop-title-3f0fbbaccb55d23d2ea13293df692c5d.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/6.1-b6a4e4912969b85ba331582cc0c5e23e.png'
                                 },
                                 {
@@ -112,7 +112,7 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-7-fa5b56ea4123e83bcd39fb36cdb8db0c.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/7-shop-title-e2f0ce1edf6922decccb3935744666d2.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/7-b4687aca0db12892b057708d68610b8a.png'
                                 },
                             ]
@@ -122,73 +122,63 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-8-46a01a58dc0efd0ea7bc6c5573b233aa.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/8-shop-title-622632b5dc0aedb6b90821e9c38ef237.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/8-1945886fa94b23ec63f8dcc4bf199cf9.png'
                                 },
                             ]
                         },
                         {
-                            subTitle: '09 センターコラムを逆さに設置する',
+                            subTitle: '09 雲台をメイン三脚に設置する',
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-9-f3a915f0907e17d2b63a5c68e82bdc17.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/9-08fce7b65c43a89cd9eeee75b724c99e.png'
-                                },
-                            ]
-                        },
-                        {
-                            subTitle: '10 雲台をメイン三脚に設置する',
-                            intro: [
-                                {
-                                    title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-10-94613ac2f80e15dc6c3d8753a6076b5d.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/10-shop-title-2b11b38933e197bca80ae491588c8718.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/10-3b4350c1623db03a9224fae9a24d9d29.png'
                                 },
                             ]
                         },
                         {
-                            subTitle: '11 スパイクを取り付ける',
+                            subTitle: '10 スパイクを取り付ける',
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-11-df387e6946166f954a7f578149571f58.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/11-shop-title-e569d25dc711773e11bf717eafb5868d.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/11-d095c1efaeccc1e906e6cc0d194979ed.png'
                                 },
                             ]
                         },
                         {
-                            subTitle: '12 スマホマウントを使用する',
+                            subTitle: '11 スマホマウントを使用する',
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-12-099dc81abe7f777104f76dbdc13e2b6f.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/12-shop-title-df97398505b2822842d4ab2f78d6034d.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/12-faba388ebd0f61dc3200c8ac5467bf65.png'
                                 },
                             ]
                         },
                         {
-                            subTitle: '13 アクセサリーを取り付ける',
+                            subTitle: '12 アクセサリーを取り付ける',
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-13-17b30f6b1208db353d25c6110a702d30.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/13-shop-title-2b9bd0ccf0795d82dd1bc518ad88e99c.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/13-930e65d3fb7986393f62e675fdb64fca.png'
                                 },
                             ]
                         },
                         {
-                            subTitle: '14 雲台と三脚の固定を強化する',
+                            subTitle: '13 雲台と三脚の固定を強化する',
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/W28-14-842ff7ef2a8e67f18f75499a39b0a8b8.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/14-shop-title-04207c2a047921deffdc789c15cdfa9d.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/14-7f6fc0163fd663ce41d09be7ad78e793.png'
                                 },
                             ]
                         },
                         {
-                            subTitle: '15 调整主架腿的开合松紧度',
+                            subTitle: '14 调整主架腿的开合松紧度',
                             intro: [
                                 {
                                     title: '',
@@ -198,7 +188,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '16 ロッキングリングをすばやく位置合わせする方法',
+                            subTitle: '15 ロッキングリングをすばやく位置合わせする方法',
                             intro: [
                                 {
                                     title: '',
@@ -208,7 +198,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '17 収納バッグの内バッグの使い方',
+                            subTitle: '16 収納バッグの内バッグの使い方',
                             intro: [
                                 {
                                     title: '',
@@ -224,12 +214,17 @@ export default {
                     img: 'https://fp.yangcong345.com/shadow/shop--1-0f284f46d5f5d339039563dd553f98e2.jpeg',
                     video: [
                         {
-                            subTitle: '01 カメラを頭に取り付ける (KF50-Q専用）',
+                            subTitle: '01 カメラを頭に取り付ける',
                             intro: [
                                 {
-                                    title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/1-a690eedd51df7ef5ab8634b68656a3a5.mp4',
+                                    title: '1.1KF50-Q専用',
+                                    video: 'https://vs-video.yangcong345.com/shadow/01-KF50-08be313bca310fe247293bf569d5053e.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/169-1-f5b2935fd29d278da1c61387c0025d01.png'
+                                },
+                                {
+                                    title: '1.2KF50-S専用',
+                                    video: 'https://vs-video.yangcong345.com/shadow/1.2-KF50-b7b34cffbb59bba085bfbf3b43773bf6.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/2.2-b17c534ce3c7e51310b816e48d4d990c.png'
                                 }
                             ]
                         },
@@ -238,7 +233,7 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/2-3ee79135253d75263153bcefe4345a77.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/2-KF50-ee3d6ee96ba878beb42a38d3100b8798.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/169-2-c3d1e82a600536239b226fd46e1ca9ed.png'
                                 },
                             ]
@@ -248,7 +243,7 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/3-da8455a59ae32a449283a37f911ea8f0.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/3-KF50-5ad906d86be0276ddd327553b4eac4b5.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/169-3-2cd6b72162111225c30c2109d703a494.png'
                                 },
                             ]
@@ -258,7 +253,7 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/4-c43f7c7f1769166e5fb9e4c6498b92fa.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/4-KF50-b57f231f28a4c7f13ba8d49fd89af3f0.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/169-4-2da56ea1eccb52bc3e07476cda196000.png'
                                 },
                             ]
@@ -268,7 +263,7 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/5-cc48d1534b022c3d82a9f276085e1c7d.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/5-KF50-3f0fbbaccb55d23d2ea13293df692c5d.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/169-5-fa3ab9f8c7a6e8d5962b78c92154dfee.png'
                                 },
                             ]
@@ -288,7 +283,7 @@ export default {
                             intro: [
                                 {
                                     title: '',
-                                    video: 'https://vs-video.yangcong345.com/shadow/7-099dc81abe7f777104f76dbdc13e2b6f.mp4',
+                                    video: 'https://vs-video.yangcong345.com/shadow/7-KF50-df97398505b2822842d4ab2f78d6034d.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/169-7-f4a73c78a28553229ce84d8286c0a9c3.png'
                                 },
                             ]
