@@ -86,7 +86,7 @@ export default {
                                     poster: 'https://fp.yangcong345.com/shadow/5.2-a9a2bad920119fc171ae993311ea532d.png'
                                 },
                                 {
-                                    title: '5.3 パノラマベースをスムーズモードに調整',
+                                    title: '5.3 パノラマベースの2つのモードを切り替える方法',
                                     video: 'https://vs-video.yangcong345.com/shadow/5.3-shop-title-b57f231f28a4c7f13ba8d49fd89af3f0.mp4',
                                     poster: 'https://fp.yangcong345.com/shadow/5.3-276949e20e466a6e39f235fd829890a0.png'
                                 },
@@ -178,7 +178,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '14 调整主架腿的开合松紧度',
+                            subTitle: '14 メイン三脚の開閉を調整する',
                             intro: [
                                 {
                                     title: '',
@@ -188,7 +188,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '15 ロッキングリングをすばやく位置合わせする方法',
+                            subTitle: '15 ロックのねじ山をすばやく合わせる',
                             intro: [
                                 {
                                     title: '',
