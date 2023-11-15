@@ -214,22 +214,22 @@ export default {
                     img: 'https://fp.yangcong345.com/shadow/shop--1-0f284f46d5f5d339039563dd553f98e2.jpeg',
                     video: [
                         {
-                            subTitle: '01 カメラを頭に取り付ける',
+                            subTitle: '01 カメラを雲台に取り付ける',
                             intro: [
                                 {
-                                    title: '1.1KF50-Q専用',
-                                    video: 'https://vs-video.yangcong345.com/shadow/01-KF50-08be313bca310fe247293bf569d5053e.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/169-1-f5b2935fd29d278da1c61387c0025d01.png'
+                                    title: '1.1 KF50-Q専用',
+                                    video: 'https://vs-video.yangcong345.com/shadow/1.2-KF50-b7b34cffbb59bba085bfbf3b43773bf6.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/KF50-1-e9086370e65bb014138887be5e004340.png'
                                 },
                                 {
-                                    title: '1.2KF50-S専用',
-                                    video: 'https://vs-video.yangcong345.com/shadow/1.2-KF50-b7b34cffbb59bba085bfbf3b43773bf6.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/2.2-b17c534ce3c7e51310b816e48d4d990c.png'
+                                    title: '1.2 KF50-S専用',
+                                    video: 'https://vs-video.yangcong345.com/shadow/01-KF50-08be313bca310fe247293bf569d5053e.mp4',
+                                    poster: 'https://fp.yangcong345.com/shadow/KF50-2-f46965374ac38a981c55bdcae00f3970.png'
                                 }
                             ]
                         },
                         {
-                            subTitle: '02 ロックレバーの使用',
+                            subTitle: '02 ボールヘッドロックレバー',
                             intro: [
                                 {
                                     title: '',
@@ -239,7 +239,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '03 パンロックノブの使用',
+                            subTitle: '03 パノラマベースロックノブ',
                             intro: [
                                 {
                                     title: '',
@@ -269,7 +269,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '06 ボールヘッドレバーの交換',
+                            subTitle: '06 ボール雲台のロックレバーの着脱',
                             intro: [
                                 {
                                     title: '',
@@ -279,7 +279,7 @@ export default {
                             ]
                         },
                         {
-                            subTitle: '07 ビルトインスマートフォンマウント',
+                            subTitle: '07 スマホマウントを使用する',
                             intro: [
                                 {
                                     title: '',
@@ -350,8 +350,8 @@ main>ul>li>ul {
 
 @media screen and (max-width:959px) {
     main video {
-        width: 100%;
-        margin-left: 0;
+        width: 80%;
+        margin: auto;
     }
     main>ul {
         min-width: none;
