@@ -219,12 +219,12 @@ export default {
                                 {
                                     title: '1.1 KF50-Q専用',
                                     video: 'https://vs-video.yangcong345.com/shadow/1.2-KF50-b7b34cffbb59bba085bfbf3b43773bf6.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/169-1-f5b2935fd29d278da1c61387c0025d01.png'
+                                    poster: 'https://fp.yangcong345.com/shadow/169-kf50-1.1-6e9aaf1453f7bb0050abaecd300fdf58.png'
                                 },
                                 {
                                     title: '1.2 KF50-S専用',
                                     video: 'https://vs-video.yangcong345.com/shadow/01-KF50-08be313bca310fe247293bf569d5053e.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/169-1-f5b2935fd29d278da1c61387c0025d01.png'
+                                    poster: 'https://fp.yangcong345.com/shadow/169-kf50-1.2-ac8455ca2b2c4c7ad968241c999236c4.png'
                                 }
                             ]
                         },
