@@ -8,7 +8,7 @@
                 <ul>
                     <li v-for="(intro, index) in item.intro" :key="index">
                         <h4 class="h4">{{ intro.title }}</h4>
-                        <video preload="auto" :src="intro.video" :poster="intro.poster" controls="controls" height="auto"></video>
+                        <video preload="auto" :poster="intro.poster" controls="controls" :src="intro.video" height="auto"></video>
                     </li>
                 </ul>
             </li>
@@ -219,12 +219,12 @@ export default {
                                 {
                                     title: '1.1 KF50-Q専用',
                                     video: 'https://vs-video.yangcong345.com/shadow/1.2-KF50-b7b34cffbb59bba085bfbf3b43773bf6.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/169-kf50-1.1-6e9aaf1453f7bb0050abaecd300fdf58.png'
+                                    poster: 'https://fp.yangcong345.com/middle/1.0.0/169-kf50/169-kf50---1.png'
                                 },
                                 {
                                     title: '1.2 KF50-S専用',
                                     video: 'https://vs-video.yangcong345.com/shadow/01-KF50-08be313bca310fe247293bf569d5053e.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/169-kf50-1.2-ac8455ca2b2c4c7ad968241c999236c4.png'
+                                    poster: 'https://fp.yangcong345.com/middle/1.0.0/169-kf50/169-kf50---1.2.png'
                                 }
                             ]
                         },
@@ -234,7 +234,7 @@ export default {
                                 {
                                     title: '',
                                     video: 'https://vs-video.yangcong345.com/shadow/2-KF50-ee3d6ee96ba878beb42a38d3100b8798.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/169-2-c3d1e82a600536239b226fd46e1ca9ed.png'
+                                    poster: 'https://fp.yangcong345.com/middle/1.0.0/169-kf50/169-kf50---2.png'
                                 },
                             ]
                         },
@@ -244,7 +244,7 @@ export default {
                                 {
                                     title: '',
                                     video: 'https://vs-video.yangcong345.com/shadow/3-KF50-5ad906d86be0276ddd327553b4eac4b5.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/169-3-2cd6b72162111225c30c2109d703a494.png'
+                                    poster: 'https://fp.yangcong345.com/middle/1.0.0/169-kf50/169-kf50---3.png'
                                 },
                             ]
                         },
@@ -254,7 +254,7 @@ export default {
                                 {
                                     title: '',
                                     video: 'https://vs-video.yangcong345.com/shadow/4-KF50-b57f231f28a4c7f13ba8d49fd89af3f0.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/169-4-2da56ea1eccb52bc3e07476cda196000.png'
+                                    poster: 'https://fp.yangcong345.com/middle/1.0.0/169-kf50/169-kf50---4.png'
                                 },
                             ]
                         },
@@ -264,7 +264,7 @@ export default {
                                 {
                                     title: '',
                                     video: 'https://vs-video.yangcong345.com/shadow/5-KF50-3f0fbbaccb55d23d2ea13293df692c5d.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/169-5-fa3ab9f8c7a6e8d5962b78c92154dfee.png'
+                                    poster: 'https://fp.yangcong345.com/middle/1.0.0/169-kf50/169-kf50---5.png'
                                 },
                             ]
                         },
@@ -274,7 +274,7 @@ export default {
                                 {
                                     title: '',
                                     video: 'https://vs-video.yangcong345.com/shadow/6-11f2ee44978ab317ac5ea3c774512ffe.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/169-6-e59d27f7ccbc900aa001676f84a85d78.png'
+                                    poster: 'https://fp.yangcong345.com/middle/1.0.0/169-kf50/169-kf50---6.png'
                                 },
                             ]
                         },
@@ -284,7 +284,7 @@ export default {
                                 {
                                     title: '',
                                     video: 'https://vs-video.yangcong345.com/shadow/7-KF50-df97398505b2822842d4ab2f78d6034d.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/169-7-f4a73c78a28553229ce84d8286c0a9c3.png'
+                                    poster: 'https://fp.yangcong345.com/middle/1.0.0/169-kf50/169-kf50---7.png'
                                 },
                             ]
                         },
