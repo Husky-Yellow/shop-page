@@ -8,7 +8,7 @@
                 <ul>
                     <li v-for="(intro, index) in item.intro" :key="index">
                         <h4 class="h4">{{ intro.title }}</h4>
-                        <video preload="auto" :src="intro.video" :poster="intro.poster" controls="controls" width="100%" height="auto"></video>
+                        <video preload="auto" :src="intro.video" :poster="intro.poster" controls="controls" height="auto"></video>
                     </li>
                 </ul>
             </li>
@@ -219,12 +219,12 @@ export default {
                                 {
                                     title: '1.1 KF50-Q専用',
                                     video: 'https://vs-video.yangcong345.com/shadow/1.2-KF50-b7b34cffbb59bba085bfbf3b43773bf6.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/KF50-1-e9086370e65bb014138887be5e004340.png'
+                                    poster: 'https://fp.yangcong345.com/shadow/169-1-f5b2935fd29d278da1c61387c0025d01.png'
                                 },
                                 {
                                     title: '1.2 KF50-S専用',
                                     video: 'https://vs-video.yangcong345.com/shadow/01-KF50-08be313bca310fe247293bf569d5053e.mp4',
-                                    poster: 'https://fp.yangcong345.com/shadow/KF50-2-f46965374ac38a981c55bdcae00f3970.png'
+                                    poster: 'https://fp.yangcong345.com/shadow/169-1-f5b2935fd29d278da1c61387c0025d01.png'
                                 }
                             ]
                         },
@@ -315,10 +315,7 @@ export default {
 }
 
 main video {
-    min-width: 340px;
-    width: 100%;
-    height: auto;
-    display: flex;
+    max-width: 658px;
 }
 
 main h2 {
@@ -345,17 +342,18 @@ main>ul {
 
 main>ul>li>ul {
     margin: 12px 0;
-
 }
 
 @media screen and (max-width:959px) {
     main video {
-        width: 80%;
-        margin: auto;
+        max-width: 100%;
     }
     main>ul {
         min-width: none;
         width: auto;
         padding: 0 10px;
+    }
+    main>ul>li>ul > li {
+        padding: 0 20px;
     }
 }</style>
